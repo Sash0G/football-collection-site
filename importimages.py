@@ -11,7 +11,7 @@ for type in ['Cards', 'Flags', 'Badges', 'Books']:
         filedata = file.read()
     
     startPos = filedata.find('<div class="gallery">') + len('<div class="gallery">')
-    endPos = filedata.find('<!--here--></div>', startPos)
+    endPos = filedata.find('<!--here-->', startPos)
 
     new='\n'
 
