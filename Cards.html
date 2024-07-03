@@ -15,47 +15,8 @@
     <div id="menuPlaceholder"></div>
     <h1 class="title">Картички</h1>
     <div class="gallery">
-      <img
-        src="Images/Cards/200.png"
-        alt="Image1"
-        onclick="openModal('Images/Cards/200.png')"
-      />
-      <img
-        src="Images/Cards/lospadresmilkyway-credit-prestondyches-cc-by-nc-2.0-jpg.webp"
-        alt="Image2"
-        onclick="openModal('Images/Cards/lospadresmilkyway-credit-prestondyches-cc-by-nc-2.0-jpg.webp')"
-      />
-      <img
-        src="Images/Cards/maxresdefault.jpg"
-        alt="Image3"
-        onclick="openModal('Images/Cards/maxresdefault.jpg')"
-      />
-      <img
-        src="Images/Cards/night-sky-and-moon-mariusfm77.jpg"
-        alt="Image4"
-        onclick="openModal('Images/Cards/night-sky-and-moon-mariusfm77.jpg')"
-      />
-      <!--here-->
-    </div>
-    <div id="myModal" class="modal">
-      <span class="close" onclick="closeModal()">&times;</span>
-      <img class="modal-content" id="modalImg" />
-    </div>
+		<img src="Images/Cards/200.png" alt="Image1"onclick="openModal('Images/Cards/200.png')">
+		<img src="Images/Cards/lospadresmilkyway-credit-prestondyches-cc-by-nc-2.0-jpg.webp" alt="Image2"onclick="openModal('Images/Cards/lospadresmilkyway-credit-prestondyches-cc-by-nc-2.0-jpg.webp')">
+		<img src="Images/Cards/maxresdefault.jpg" alt="Image3"onclick="openModal('Images/Cards/maxresdefault.jpg')">
+		<img src="Images/Cards/night-sky-and-moon-mariusfm77.jpg" alt="Image4"onclick="openModal('Images/Cards/night-sky-and-moon-mariusfm77.jpg')">
 
-    <script>
-      // Function to open the modal and display the clicked image
-      function openModal(imgSrc) {
-        var modal = document.getElementById("myModal");
-        var modalImg = document.getElementById("modalImg");
-        modal.style.display = "block";
-        modalImg.src = imgSrc;
-      }
-
-      // Function to close the modal
-      function closeModal() {
-        var modal = document.getElementById("myModal");
-        modal.style.display = "none";
-      }
-    </script>
-  </body>
-</html>
